@@ -1,0 +1,161 @@
+/*==================== SKILLS ====================*/
+
+.skills__container {
+  row-gap: 0; /* Assuming you meant gap between rows */
+}
+
+.skills__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-2-5);
+  cursor: pointer;
+}
+
+.skills__icon,
+.skills__arrow {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.skills__icon {
+  margin-right: var(--mb-0-75); /* Ensure consistent spacing */
+}
+
+.skills__title {
+  font-size: var(--small-font-size);
+  color: var(--title-color); /* Adjusted color for readability */
+}
+
+.skills__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light); /* Lightened text color for subtlety */
+}
+
+.skills__arrow {
+  margin-left: auto;
+  transition: 0.4s;
+}
+
+.skills__titles {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--mb-0-5); /* Adjusted margin for spacing */
+}
+
+.skills__titles:hover {
+  color: var(--first-color); /* Highlight on hover */
+}
+
+.skills__logo {
+  font-size: 1.5rem;
+  margin-right: var(--mb-1); /* Adjusted margin */
+  color: var(--first-color);
+  transition: color 0.3s;
+}
+
+.skills__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  flex-grow: 1;
+  margin-left: 15px; /* Added margin for separation */
+  cursor: pointer;
+}
+
+.skills__name:hover {
+  color: var(--first-color); /* Change color on hover */
+}
+
+.skills__number {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light); /* Adjusted text color */
+}
+
+.skills__bar,
+.skills__percentage {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+
+.skills__bar {
+  background-color: var(--first-color-lighter); /* Lighter bar color */
+}
+
+.skills__percentage {
+  display: block;
+  background-color: var(--first-color); /* Primary color for percentage */
+}
+
+/* Adjusted widths based on skill levels */
+.skills__html {
+  width: 90%; /* Adjusted width for HTML */
+}
+
+.skills__css {
+  width: 70%; /* Adjusted width for CSS */
+}
+
+.skills__javascript {
+  width: 80%; /* Adjusted width for JavaScript */
+}
+
+.skills__react {
+  width: 75%; /* Adjusted width for React */
+}
+
+.skills__python {
+  width: 80%; /* Adjusted width for Python */
+}
+
+.skills__excel {
+  width: 60%; /* Adjusted width for Excel */
+}
+
+.skills__powerbi {
+  width: 75%; /* Adjusted width for PowerBI */
+}
+
+.skills__sql {
+  width: 70%; /* Adjusted width for SQL */
+}
+
+.skills__tableau {
+  width: 50%; /* Adjusted width for Tableau */
+}
+
+.skills__close .skills__list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list {
+  height: max-content;
+  margin-bottom: var(--mb-2-5);
+}
+
+.skills__open .skills__arrow {
+  transform: rotate(-180deg); /* Rotate arrow for open state */
+}
+
+.skills__logo:hover {
+  color: var(--first-color); /* Highlight logo on hover */
+}
+
+.skills__icon {
+  font-size: 1.5rem;
+  color: var(--first-color-light); /* Default icon color */
+}
+
+.skills__icon:hover {
+  color: var(--first-color); /* Highlight icon on hover */
+}
+
+.skills__data {
+  height: 80px; /* Adjusted height for each skill data */
+  padding: 20px; /* Padding for spacing */
+}
+
+.skills__data:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Added box shadow on hover */
+  transition: box-shadow 0.5s ease;
+  border-radius: 10px; /* Rounded corners */
+}
